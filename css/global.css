@@ -1,0 +1,46 @@
+body {
+    background-color: #323232 !important;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #1b1b1b !important;
+}
+
+.collapse{
+    height: 60px;
+}
+
+.navbar-brand {
+    color: #00ff32;
+}
+
+.navbar-brand:hover {
+    color: #00c84d;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover, .nav-link:focus {
+    color: #00ff32;
+    background-color: #323232;
+    border-bottom: 1.5px solid #00ff32;
+}
+
+.custom-dropdown {
+    background-color: #1b1b1b;
+    color: white;
+    border-style: none;
+}
+
+.custom-dropdown:hover {
+    color: #00ff32;
+    background-color: #323232;
+    border-bottom: 1.5px solid #00ff32;
+}
+
+
+
+

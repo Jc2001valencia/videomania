@@ -1,0 +1,39 @@
+body {
+  background-color: #323232;
+}
+
+.card {
+  background-color: #1b1b1b;
+  margin: 2% 0 2% 0;
+  height: 250px;
+  border: 1px solid #00c84d;
+  border-radius: 25px;
+  animation: card 0.5s ease;
+}
+
+@keyframes card {
+  100% {
+    transform: translateY(0%);
+  }
+
+  0% {
+    transform: translateY(15%);
+    opacity: 0%;
+  }
+}
+
+.custom-adviser {
+  margin-top: 20%;
+  animation: custom-adviser 1s ease;
+}
+
+@keyframes custom-adviser {
+  100% {
+    transform: translateY(0%);
+  }
+
+  0% {
+    transform: translateY(15%);
+    opacity: 0%;
+  }
+}

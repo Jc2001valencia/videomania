@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VideoMania - Grandes peliculas</title>
+
+    <!----------------------------------------css------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Fonts.css">
+</head>
+
+<body>
+
+    <!-------------------------------------    Menu    ------------------------------------------>
+    <div class="d-flex align-items-center navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between p-1" id="navbarNav">
+                <a class="navbar-brand" href="index.html"> VideoMania </a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#peliculas"> Películas </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#Suscripcion"> Suscripción </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav usuario">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pages/sesion.php">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                <path fill-rule="evenodd"
+                                    d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                            </svg>
+                            &nbsp;Ingresa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------    Seccion inicio    ------------------------------->
+    <section class="d-flex container-fluid justify-content-center align-items-center container-fondoUno" id="inicio">
+        <div class="d-flex row justify-content-center">
+            <div class="d-flex col-md-6 justify-content-center align-items-center">
+                <div class="custom-content">
+                    <h1 class="custom-title">
+                        Películas increíbles
+                    </h1>
+                    <div class="d-flex justify-content-end">
+                        <h1 class="custom-subtitle align-self-end">
+                            Siempre
+                        </h1>
+                    </div>
+                    <h1 class="custom-parag text-center align-self-center">
+                        Entretenimiento para todas las edades al alcance de tu mano.
+                    </h1>
+                </div>
+            </div>
+            <div class="col-md-6 custom-image-fondoUno">
+                <img src="images/imagenFondoUno.png" class="img-fluid" />
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------    Seccion del carrusel    ------------------------------->
+    <section class="d-flex container-fluid justify-content-center align-items-center container-fondoDos" id="peliculas">
+        <div class="d-block content-fondoDos justify-content-center">
+            <div id="carousel-peliculas" class="carousel slide mx-auto custom-carousel" data-bs-ride="carousel"
+                data-bs-interval="3000">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <img src="images/avengers-endgame.jpg" class="w-25" alt="Película 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/after-aqui-empieza-todo.jpg" class="w-25" alt="Película 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/7-razones-para-huir.jpg" class="w-25" alt="Película 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-peliculas" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-peliculas" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousel-peliculas" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousel-peliculas" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carousel-peliculas" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+            <div class="d-flex container justify-content-center">
+                <div class="content-info-button w-50">
+                    <div class="row"">
+                        <div class=" col">
+                        <h1 class="custom-parag-fondoDos text-center">
+                            Gran catálogo de películas y géneros a tu disposición.
+                        </h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col justify-content-center">
+                        <button type="button" class="custom-color-button align-self-center m-2 py-2 px-4"><a class="custom-link" href="Pages/sesion.php"> Ver más </a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!---------------------------    Seccion suscripcion    ------------------------------->
+    <section class="d-flex container-fluid justify-content-center align-items-center container-fondoTres"
+        id="Suscripcion">
+        <div class="custom-rows">
+            <div class="row">
+                <div class="d-flex col-md-12 justify-content-center">
+                    <h1 class="custom-fondoTres-title m-5 text-center">
+                        Escoge una suscripción que más se adecue a tus necesidades:
+                    </h1>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="d-flex col justify-content-center">
+                    <div class="border border-4 custom-border">
+                        <h1 class="custom-price m-4 text-center">
+                            $9.99
+                        </h1>
+                        <h1 class="custom-name m-4 text-center">
+                            Básica
+                        </h1>
+                        <h1 class="custom-description m-4 text-center">
+                            Descripción de la suscripción básica.
+                        </h1>
+                    </div>
+                </div>
+                <div class="d-flex col justify-content-center">
+                    <div class="border border-4 custom-border">
+                        <h1 class="custom-price m-4 text-center">
+                            $19.99
+                        </h1>
+                        <h1 class="custom-name m-4 text-center">
+                            Premium
+                        </h1>
+                        <h1 class="custom-description m-4 text-center">
+                            Descripción de la suscripción premium.
+                        </h1>
+                    </div>
+                </div>
+                <div class="d-flex col justify-content-center">
+                    <div class="border border-4 custom-border">
+                        <h1 class="custom-price m-4 text-center">
+                            $29.99
+                        </h1>
+                        <h1 class="custom-name m-4 text-center">
+                            VIP
+                        </h1>
+                        <h1 class="custom-description m-4 text-center">
+                            Descripción de la suscripción VIP.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex col justify-content-center">
+                    <button type="button"
+                        class="custom-color-button align-self-center m-5 py-2 px-4"><a class="custom-link" href="Pages/sesion.php"> Suscribirme </a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------JavaScript------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+body {
+    background-color: #323232;
+}
+
+.container-fondoUno {
+    background-color: #323232;
+    height: 100vh;
+}
+
+.custom-title {
+    font-size: 50px;
+    color: #ffffff;
+    animation: custom-title 1.5s ease;
+}
+
+@keyframes custom-title {
+    100% {
+        transform: translateX(0%);
+    }
+
+    0% {
+        transform: translateX(15%);
+        opacity: 0%;
+    }
+}
+
+.custom-subtitle {
+    font-size: 90px;
+    color: #00ff32;
+    animation: custom-subtitle 2s ease;
+}
+
+@keyframes custom-subtitle {
+    100% {
+        transform: translateX(0%);
+    }
+
+    0% {
+        transform: translateX(15%);
+        opacity: 0%;
+    }
+}
+
+.custom-parag {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 100px;
+    animation: custom-parag 1.5s ease;
+}
+
+@keyframes custom-parag {
+    100% {
+        transform: translateY(0%);
+    }
+
+    0% {
+        transform: translateY(15%);
+        opacity: 0%;
+    }
+}
+
+.custom-image-fondoUno {
+    animation: custom-image-fondoUno 1s ease;
+}
+
+@keyframes custom-image-fondoUno {
+    100% {
+        transform: translateY(0%);
+    }
+
+    0% {
+        transform: translateY(15%);
+        opacity: 0%;
+    }
+}
+
+.custom-content {
+    width: 70%;
+}
+
+/*-----------------------seccion dos---------------------------*/
+
+.container-fondoDos {
+    background-color: #212121;
+    height: 100vh;
+}
+
+#carousel-peliculas {
+    padding: 10px;
+    width: 70%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../images/left-arrow.png")
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/right-arrow.png");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 30px 50px;
+    width: 30px;
+    height: 50px;
+}
+
+.carousel-indicators>li {
+    background-color: #000000;
+}
+
+.carousel-indicators .active {
+    background-color: #00ff32;
+}
+
+.custom-parag-fondoDos {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 50px;
+}
+
+.content-fondoDos {
+    width: 100%;
+}
+
+.custom-color-button {
+    color: #ffffff;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #00c84d;
+    transition: background-color 0.3s ease;
+}
+
+.custom-color-button:hover {
+    background-color: #00c84db9;
+}
+
+/*-----------------------seccion tres---------------------------*/
+
+.container-fondoTres {
+    background-color: #323232;
+    height: 100vh;
+}
+
+.custom-fondoTres-title {
+    width: 70%;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.custom-border {
+    background-color: #212121;
+    width: 70%;
+    border-color: #00c84d !important;
+    border-radius: 45px;
+    transition: transform 0.3s ease;
+}
+
+.custom-border:hover {
+    transform: scale(1.03);
+}
+
+.custom-price {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.custom-name {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.custom-description {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.custom-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}

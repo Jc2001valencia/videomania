@@ -1,0 +1,31 @@
+.container-fondo {
+    height: 90vh;
+}
+
+.editar-usuario {
+    width: 40%;
+    background-color: #1b1b1b;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.custom-editar-title {
+    color: #00ff32;
+}
+
+.custom-edit-button {
+    width: 25%;
+    background-color: #00c84d;
+    color: #fff;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.custom-edit-button:hover {
+    background-color: #00a640;
+    color: whitesmoke;
+}
+
+.form-control {
+    border-style: none;
+}

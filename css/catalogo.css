@@ -1,0 +1,39 @@
+
+.card {
+  height: 100%;
+  width: 19rem;
+  color: whitesmoke;
+  background-color: black;
+  animation: card 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+@keyframes card {
+  100% {
+    transform: translateY(0%);
+  }
+
+  0% {
+    transform: translateY(15%);
+    opacity: 0%;
+  }
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  background-color: #00c84d;
+  padding: 10px 30px;
+  border-radius: 15px;
+  transition: 0.5s ease;
+}
+
+.custom-link:hover {
+  color: whitesmoke;
+  background-color: #008f37;
+}
